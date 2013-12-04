@@ -1,0 +1,178 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/home/simon/node_modules/bin/npm', 'publish' ]
+2 info using npm@1.3.13
+3 info using node@v0.10.21
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /home/simon/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/tmp.tgz
+12 verbose folder .
+13 info prepublish it@0.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /home/simon/.npm/1f1177db-tar.lock
+16 silly lockFile ab72be31-44863-0-8340058932080865-tmp-tgz tar:///home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/tmp.tgz
+17 verbose lock tar:///home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/tmp.tgz /home/simon/.npm/ab72be31-44863-0-8340058932080865-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile ab72be31-44863-0-8340058932080865-tmp-tgz tar:///home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/tmp.tgz
+21 silly lockFile ab72be31-44863-0-8340058932080865-tmp-tgz tar:///home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/tmp.tgz
+22 verbose tar unpack /home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/tmp.tgz
+23 silly lockFile bfafe4fe-44863-0-8340058932080865-package tar:///home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/package
+24 verbose lock tar:///home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/package /home/simon/.npm/bfafe4fe-44863-0-8340058932080865-package.lock
+25 silly lockFile ab72be31-44863-0-8340058932080865-tmp-tgz tar:///home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/tmp.tgz
+26 verbose lock tar:///home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/tmp.tgz /home/simon/.npm/ab72be31-44863-0-8340058932080865-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry Gruntfile.js
+32 silly gunzTarPerm extractEntry amdconfig.js
+33 silly gunzTarPerm extractEntry demo/main.js
+34 silly gunzTarPerm extractEntry demo/main.html
+35 silly gunzTarPerm extractEntry bower.json
+36 silly gunzTarPerm extractEntry .jshintrc
+37 silly gunzTarPerm extractEntry index.html
+38 silly gunzTarPerm extractEntry src/it.js
+39 silly gunzTarPerm extractEntry .editorconfig
+40 silly gunzTarPerm extractEntry test/base.js
+41 silly gunzTarPerm extractEntry test/index.html
+42 silly gunzTarPerm extractEntry test/tests.json
+43 silly lockFile bfafe4fe-44863-0-8340058932080865-package tar:///home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/package
+44 silly lockFile bfafe4fe-44863-0-8340058932080865-package tar:///home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/package
+45 silly lockFile ab72be31-44863-0-8340058932080865-tmp-tgz tar:///home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/tmp.tgz
+46 silly lockFile ab72be31-44863-0-8340058932080865-tmp-tgz tar:///home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/tmp.tgz
+47 verbose tar pack [ '/home/simon/.npm/it/0.0.0/package.tgz',
+47 verbose tar pack   '/home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/package' ]
+48 verbose tarball /home/simon/.npm/it/0.0.0/package.tgz
+49 verbose folder /home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/package
+50 silly lockFile bfafe4fe-44863-0-8340058932080865-package tar:///home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/package
+51 verbose lock tar:///home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/package /home/simon/.npm/bfafe4fe-44863-0-8340058932080865-package.lock
+52 silly lockFile acd78be6-e-simon-npm-it-0-0-0-package-tgz tar:///home/simon/.npm/it/0.0.0/package.tgz
+53 verbose lock tar:///home/simon/.npm/it/0.0.0/package.tgz /home/simon/.npm/acd78be6-e-simon-npm-it-0-0-0-package-tgz.lock
+54 silly lockFile bfafe4fe-44863-0-8340058932080865-package tar:///home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/package
+55 silly lockFile bfafe4fe-44863-0-8340058932080865-package tar:///home/simon/tmp/npm-6322-quSw_Leg/1386154144863-0.8340058932080865/package
+56 silly lockFile acd78be6-e-simon-npm-it-0-0-0-package-tgz tar:///home/simon/.npm/it/0.0.0/package.tgz
+57 silly lockFile acd78be6-e-simon-npm-it-0-0-0-package-tgz tar:///home/simon/.npm/it/0.0.0/package.tgz
+58 silly lockFile fac7103e-home-simon-npm-it-0-0-0-package /home/simon/.npm/it/0.0.0/package
+59 verbose lock /home/simon/.npm/it/0.0.0/package /home/simon/.npm/fac7103e-home-simon-npm-it-0-0-0-package.lock
+60 silly lockFile fac7103e-home-simon-npm-it-0-0-0-package /home/simon/.npm/it/0.0.0/package
+61 silly lockFile fac7103e-home-simon-npm-it-0-0-0-package /home/simon/.npm/it/0.0.0/package
+62 verbose tar unpack /home/simon/.npm/it/0.0.0/package.tgz
+63 silly lockFile f506fe5a--home-simon-npm-it-0-0-0-package tar:///home/simon/.npm/it/0.0.0/package
+64 verbose lock tar:///home/simon/.npm/it/0.0.0/package /home/simon/.npm/f506fe5a--home-simon-npm-it-0-0-0-package.lock
+65 silly lockFile acd78be6-e-simon-npm-it-0-0-0-package-tgz tar:///home/simon/.npm/it/0.0.0/package.tgz
+66 verbose lock tar:///home/simon/.npm/it/0.0.0/package.tgz /home/simon/.npm/acd78be6-e-simon-npm-it-0-0-0-package-tgz.lock
+67 silly gunzTarPerm modes [ '755', '644' ]
+68 silly gunzTarPerm extractEntry package.json
+69 silly gunzTarPerm extractEntry .npmignore
+70 silly gunzTarPerm extractEntry README.md
+71 silly gunzTarPerm extractEntry Gruntfile.js
+72 silly gunzTarPerm extractEntry amdconfig.js
+73 silly gunzTarPerm extractEntry bower.json
+74 silly gunzTarPerm extractEntry .jshintrc
+75 silly gunzTarPerm extractEntry demo/main.js
+76 silly gunzTarPerm extractEntry demo/main.html
+77 silly gunzTarPerm extractEntry index.html
+78 silly gunzTarPerm extractEntry .editorconfig
+79 silly gunzTarPerm extractEntry src/it.js
+80 silly gunzTarPerm extractEntry test/base.js
+81 silly gunzTarPerm extractEntry test/index.html
+82 silly gunzTarPerm extractEntry test/tests.json
+83 silly lockFile f506fe5a--home-simon-npm-it-0-0-0-package tar:///home/simon/.npm/it/0.0.0/package
+84 silly lockFile f506fe5a--home-simon-npm-it-0-0-0-package tar:///home/simon/.npm/it/0.0.0/package
+85 silly lockFile acd78be6-e-simon-npm-it-0-0-0-package-tgz tar:///home/simon/.npm/it/0.0.0/package.tgz
+86 silly lockFile acd78be6-e-simon-npm-it-0-0-0-package-tgz tar:///home/simon/.npm/it/0.0.0/package.tgz
+87 verbose chmod /home/simon/.npm/it/0.0.0/package.tgz 644
+88 verbose chown /home/simon/.npm/it/0.0.0/package.tgz [ 1000, 1000 ]
+89 silly lockFile 3a52ce78- .
+90 silly lockFile 3a52ce78- .
+91 silly publish { name: 'it',
+91 silly publish   main: './src/it',
+91 silly publish   version: '0.0.0',
+91 silly publish   description: 'Inspired by tjholowaychuk beautiful assertion library should.js',
+91 silly publish   repository: { type: 'git', url: 'https://github.com/simonfan/it.git' },
+91 silly publish   dependencies:
+91 silly publish    { amdefine: '>=0.1.0',
+91 silly publish      lodash: '~2.4.1',
+91 silly publish      'document-matcher': '~0.1.0' },
+91 silly publish   devDependencies:
+91 silly publish    { grunt: '~0.4.2',
+91 silly publish      'grunt-contrib-connect': '~0.5.0',
+91 silly publish      'grunt-bower-requirejs': '~0.7.1',
+91 silly publish      'grunt-contrib-watch': '~0.5.3',
+91 silly publish      'grunt-contrib-yuidoc': '~0.5.0',
+91 silly publish      'grunt-contrib-jshint': '~0.7.2',
+91 silly publish      'grunt-contrib-requirejs': '~0.4.1',
+91 silly publish      should: '~2.1.0',
+91 silly publish      mocha: '~1.15.0',
+91 silly publish      'grunt-simple-mocha': '~0.4.0' },
+91 silly publish   scripts: { test: 'mocha' },
+91 silly publish   readme: '# it\n\nInspired by tjholowaychuk beautiful assertion library should.js\n',
+91 silly publish   readmeFilename: 'README.md',
+91 silly publish   bugs: { url: 'https://github.com/simonfan/it/issues' },
+91 silly publish   homepage: 'https://github.com/simonfan/it',
+91 silly publish   _id: 'it@0.0.0',
+91 silly publish   dist: { shasum: '449b900c68895a34f3f1f803c7291627b6904e55' },
+91 silly publish   _from: '.' }
+92 verbose url raw it
+93 verbose url resolving [ 'https://registry.npmjs.org/', './it' ]
+94 verbose url resolved https://registry.npmjs.org/it
+95 info trying registry request attempt 1 at 08:49:05
+96 http PUT https://registry.npmjs.org/it
+97 http 409 https://registry.npmjs.org/it
+98 verbose url raw it
+99 verbose url resolving [ 'https://registry.npmjs.org/', './it' ]
+100 verbose url resolved https://registry.npmjs.org/it
+101 info trying registry request attempt 1 at 08:49:06
+102 http GET https://registry.npmjs.org/it
+103 http 200 https://registry.npmjs.org/it
+104 verbose uploading [ 'it/-/it-0.0.0.tgz/-rev/81-c6af19708f29cf207b29d2e047d12b1b',
+104 verbose uploading   '/home/simon/.npm/it/0.0.0/package.tgz' ]
+105 verbose url raw it/-/it-0.0.0.tgz/-rev/81-c6af19708f29cf207b29d2e047d12b1b
+106 verbose url resolving [ 'https://registry.npmjs.org/',
+106 verbose url resolving   './it/-/it-0.0.0.tgz/-rev/81-c6af19708f29cf207b29d2e047d12b1b' ]
+107 verbose url resolved https://registry.npmjs.org/it/-/it-0.0.0.tgz/-rev/81-c6af19708f29cf207b29d2e047d12b1b
+108 info trying registry request attempt 1 at 08:49:08
+109 http PUT https://registry.npmjs.org/it/-/it-0.0.0.tgz/-rev/81-c6af19708f29cf207b29d2e047d12b1b
+110 http 403 https://registry.npmjs.org/it/-/it-0.0.0.tgz/-rev/81-c6af19708f29cf207b29d2e047d12b1b
+111 info trying registry request attempt 1 at 08:49:10
+112 http PUT https://registry.npmjs.org/it/-/it-0.0.0.tgz/-rev/81-c6af19708f29cf207b29d2e047d12b1b
+113 http 403 https://registry.npmjs.org/it/-/it-0.0.0.tgz/-rev/81-c6af19708f29cf207b29d2e047d12b1b
+114 error publish Error uploading package
+115 error Error: forbidden user: simonfan not authorized to modify it
+115 error Added: _attachments.it-0.0.0.tgz: it/-/it-0.0.0.tgz/-rev/81-c6af19708f29cf207b29d2e047d12b1b
+115 error     at RegClient.<anonymous> (/home/simon/node_modules/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:272:14)
+115 error     at Request.self.callback (/home/simon/node_modules/lib/node_modules/npm/node_modules/request/request.js:129:22)
+115 error     at Request.EventEmitter.emit (events.js:98:17)
+115 error     at Request.<anonymous> (/home/simon/node_modules/lib/node_modules/npm/node_modules/request/request.js:873:14)
+115 error     at Request.EventEmitter.emit (events.js:117:20)
+115 error     at IncomingMessage.<anonymous> (/home/simon/node_modules/lib/node_modules/npm/node_modules/request/request.js:824:12)
+115 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+115 error     at _stream_readable.js:920:16
+115 error     at process._tickCallback (node.js:415:13)
+116 error If you need help, you may report this log at:
+116 error     <http://github.com/isaacs/npm/issues>
+116 error or email it to:
+116 error     <npm-@googlegroups.com>
+117 error System Linux 3.11.0-13-generic-tuxonice
+118 error command "node" "/home/simon/node_modules/bin/npm" "publish"
+119 error cwd /home/simon/Desktop/code/shared/it
+120 error node -v v0.10.21
+121 error npm -v 1.3.13
+122 verbose exit [ 1, true ]

@@ -1,0 +1,17 @@
+{
+  "name": "it",
+  "main": "src/it.js",
+  "version": "0.0.0",
+  "description": "Inspired by tjholowaychuk beautiful assertion library should.js",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "document-matcher": "~0.1.0"
+  },
+  "devDependencies": {
+    "requirejs": "*",
+    "requirejs-text": "*",
+    "underscore": "*",
+    "jquery": "*",
+    "qunit": "*"
+  }
+}
